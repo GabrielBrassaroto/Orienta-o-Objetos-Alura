@@ -21,6 +21,9 @@ namespace _01_ByteBank
             contaDaGabriela.Saldo = 1000.0;
 
             Console.WriteLine(contaDaGabriela.Titular);
+            Console.WriteLine("Agência: " + contaDaGabriela.Agencia);
+            Console.WriteLine("Número: " + contaDaGabriela.Numero);
+            Console.WriteLine("Saldo: " + contaDaGabriela.Saldo);
 
             Console.ReadLine();
 
