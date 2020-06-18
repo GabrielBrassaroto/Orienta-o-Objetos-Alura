@@ -24,4 +24,9 @@ public class ContaCorrente
         }
     }
 
+    public void Depositar(double valor)
+    {
+        this.Saldo += valor;
+    }
+
 }

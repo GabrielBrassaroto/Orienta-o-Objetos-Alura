@@ -15,12 +15,13 @@ namespace _04_ByteBank
             contaDoBruno.Titular = "Burno";
 
             Console.WriteLine(contaDoBruno.Saldo);
-            bool resultadoSaque = contaDoBruno.Sacar(50);
+            bool resultadoSaque = contaDoBruno.Sacar(500);
 
             Console.WriteLine(contaDoBruno.Saldo);
             Console.WriteLine(resultadoSaque);
 
-
+            contaDoBruno.Depositar(500);
+            Console.WriteLine(contaDoBruno.Saldo);
             Console.ReadLine();
         }
     }
