@@ -1,7 +1,4 @@
 ﻿
-
-
-
 public class ContaCorrente
 {
     public string Titular;
